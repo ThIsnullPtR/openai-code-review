@@ -24,8 +24,8 @@ jobs:
           java-version: '11'
 
       - name: Run Java code
-        run:
-          cd openai-code-reveiew-sdk/src/main/java
+        run: 
+          cd openai-code-review-sdk/src/main/java
           javac com/itgy/sdk/OpenAiCodeReview.java
           java com.itgy.sdk.OpenAiCodeReview
           
